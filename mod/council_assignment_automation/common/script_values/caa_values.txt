@@ -1,0 +1,46 @@
+﻿# Scoring leaves one skill point larger than all five stability bonuses.
+
+caa_chancellor_score_value = {
+    value = diplomacy
+    multiply = 10
+    if = {
+        limit = { scope:caa_owner.var:caa_old_0 ?= this }
+        add = 1
+    }
+}
+
+caa_steward_score_value = {
+    value = stewardship
+    multiply = 10
+    if = {
+        limit = { scope:caa_owner.var:caa_old_1 ?= this }
+        add = 1
+    }
+}
+
+caa_marshal_score_value = {
+    value = martial
+    multiply = 10
+    if = {
+        limit = { scope:caa_owner.var:caa_old_2 ?= this }
+        add = 1
+    }
+}
+
+caa_spymaster_score_value = {
+    value = intrigue
+    multiply = 10
+    if = {
+        limit = { scope:caa_owner.var:caa_old_3 ?= this }
+        add = 1
+    }
+}
+
+caa_court_chaplain_score_value = {
+    value = learning
+    multiply = 10
+    if = {
+        limit = { scope:caa_owner.var:caa_old_4 ?= this }
+        add = 1
+    }
+}

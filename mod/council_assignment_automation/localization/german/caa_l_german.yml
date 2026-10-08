@@ -1,0 +1,13 @@
+﻿l_german:
+ caa_title:0 "Automatische Ratsbesetzung"
+ caa_open_settings:0 "Ratsautomatisierung"
+ caa_open_settings_tt:0 "Automatische Ernennungen und Neubesetzungen im Rat einstellen."
+ caa_intro:0 "Die Prüfung erfolgt beim Einschalten oder Ändern der Einstellungen und danach alle 30 Tage. Alle Optionen sind anfangs ausgeschaltet und werden für diesen Herrscher gespeichert."
+ caa_enabled_label:0 "Automatische Ernennungen aktivieren"
+ caa_enabled_tt:0 "Freie Ratsämter mit geeigneten Charakteren besetzen. Ausschalten beendet alle automatischen Ernennungen, Neubesetzungen und Ämterwechsel; die übrigen Einstellungen bleiben erhalten."
+ caa_powerful_label:0 "Mächtige Vasallen bevorzugen"
+ caa_powerful_tt:0 "Geeignete mächtige Vasallen bevorzugen und ihre Ämter nach den jeweiligen Fähigkeiten verteilen. Andernfalls zählen nur die Fähigkeiten. Bei aktiver Automatisierung können mächtige Vasallen im Rat ihre Ämter bei veränderten Fähigkeiten tauschen, auch ohne Überwachung für Neubesetzungen."
+ caa_observer_label:0 "Neubesetzungen überwachen"
+ caa_observer_tt:0 "Bei aktiver Automatisierung bessere Kandidaten und Änderungen beim Status mächtiger Vasallen prüfen. Amtierende Ratsmitglieder ersetzen, wenn die gewählte Priorität eine bessere Besetzung ergibt. Ausgeschaltet werden nur freie Ämter und die oben beschriebenen Ämterwechsel mächtiger Vasallen verwaltet."
+ caa_limits_help:0 "Es werden nur zulässige Ernennungen im gewöhnlichen Rat verwaltet. Ehepartnerämter, geschützte Ratsmitglieder und Sonderräte sind ausgenommen. Ratsprediger werden nur ernannt, wenn der Herrscher sie selbst wählen darf. Das Schließen dieses Menüs beendet die Automatisierung nicht."
+ caa_close:0 "Schließen"

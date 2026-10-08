@@ -1,0 +1,13 @@
+﻿l_polish:
+ caa_title:0 "Automatyczne obsadzanie rady"
+ caa_open_settings:0 "Automatyzacja rady"
+ caa_open_settings_tt:0 "Ustaw automatyczne mianowanie i zastępowanie członków rady."
+ caa_intro:0 "Sprawdzanie następuje po włączeniu automatyzacji lub zmianie ustawień, a następnie co 30 dni. Początkowo wszystkie opcje są wyłączone. Ustawienia są zapisywane dla tego władcy."
+ caa_enabled_label:0 "Włącz automatyczne mianowanie"
+ caa_enabled_tt:0 "Obsadzaj wolne stanowiska odpowiednimi postaciami. Wyłączenie zatrzymuje wszystkie automatyczne nominacje, zastępstwa i zamiany stanowisk, zachowując pozostałe ustawienia."
+ caa_powerful_label:0 "Daj pierwszeństwo wpływowym wasalom"
+ caa_powerful_tt:0 "Dawaj pierwszeństwo odpowiednim wpływowym wasalom, a stanowiska przydzielaj według umiejętności. Bez tej opcji liczą się wyłącznie umiejętności. Przy aktywnej automatyzacji wpływowi wasale w radzie mogą zamieniać się stanowiskami, gdy zmienią się ich umiejętności, nawet bez obserwacji zastępstw."
+ caa_observer_label:0 "Włącz obserwację możliwych zastępstw"
+ caa_observer_tt:0 "Przy aktywnej automatyzacji szukaj lepszych kandydatów i śledź zmiany statusu wpływowego wasala. Zastępuj obecnych radnych, jeśli wybrany priorytet pozwala poprawić skład rady. Po wyłączeniu obsadzane są wakaty i nadal możliwe są opisane wyżej zamiany stanowisk wpływowych wasali."
+ caa_limits_help:0 "Automatyzacja obejmuje tylko dozwolone nominacje do zwykłej rady. Wyklucza stanowiska małżonka, chronionych radnych i rady specjalne. Nadworny kapelan jest mianowany tylko wtedy, gdy władca ma prawo go wybierać. Zamknięcie menu nie zatrzymuje automatyzacji."
+ caa_close:0 "Zamknij"

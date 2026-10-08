@@ -1,0 +1,13 @@
+﻿l_spanish:
+ caa_title:0 "Nombramientos automáticos del consejo"
+ caa_open_settings:0 "Automatización del consejo"
+ caa_open_settings_tt:0 "Configurar los nombramientos y reemplazos automáticos del consejo."
+ caa_intro:0 "Se comprueba al activar la automatización o cambiar sus preferencias y, después, cada 30 días. Todas las opciones empiezan desactivadas y se guardan para este gobernante."
+ caa_enabled_label:0 "Activar los nombramientos automáticos"
+ caa_enabled_tt:0 "Cubrir los puestos vacantes con personajes aptos. Desactivar esta opción detiene todos los nombramientos, reemplazos e intercambios automáticos y conserva las demás preferencias."
+ caa_powerful_label:0 "Dar prioridad a los vasallos poderosos"
+ caa_powerful_tt:0 "Priorizar a los vasallos poderosos aptos y distribuir sus puestos según las habilidades pertinentes. Sin esta opción, solo cuentan las habilidades. Con la automatización activa, los vasallos poderosos del consejo pueden intercambiar puestos si cambian sus habilidades, incluso sin supervisar los reemplazos."
+ caa_observer_label:0 "Supervisar los posibles reemplazos"
+ caa_observer_tt:0 "Con la automatización activa, buscar candidatos mejores y cambios en el estado de vasallo poderoso. Reemplazar a los consejeros actuales cuando la prioridad elegida permita mejorar el consejo. Si está desactivada, solo se cubren vacantes y se mantienen los intercambios de vasallos poderosos descritos arriba."
+ caa_limits_help:0 "Solo se gestionan nombramientos permitidos en el consejo ordinario. Se excluyen los puestos del cónyuge, los consejeros protegidos y los consejos especiales. El capellán solo se nombra si el gobernante puede elegirlo. Cerrar este menú no detiene la automatización."
+ caa_close:0 "Cerrar"

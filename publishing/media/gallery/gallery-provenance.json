@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "mod": "council_assignment_automation",
+  "media_kind": "authentic_gameplay_screenshots",
+  "upload_order": [
+    "01-council-button.jpg",
+    "02-council-settings.jpg"
+  ],
+  "source_gallery_manifest_sha256": "7c5ae523386fffa867bad470c373b943cd873829262c6c4e481d23d92718e039",
+  "visual_review_sha256": "ef707b0ff15a62d27e905231198bc65d0f5a60815573fec208d5dcca8a3daa83",
+  "original_png_preservation": "Original PNG captures remain byte-preserved in the authoring provenance archive.",
+  "encoding_tool": {
+    "name": "Pillow",
+    "version": "12.2.0"
+  },
+  "entries": [
+    {
+      "order": 1,
+      "caption": "Council automation button and tooltip in the Council panel.",
+      "path": "01-council-button.jpg",
+      "bytes": 969727,
+      "sha256": "ce732ab6ff56f1fc958f73f75597ed161fa7bbf9f23c41f9d9dbc22244b90740",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "original_png": {
+        "supplied_filename": "codex-clipboard-68454def-5214-4d9c-b579-ad503e4ab7c7.png",
+        "bytes": 3816223,
+        "sha256": "bcb461090c1294be3d1b2a639e89fe4f8da56f9f7f9f38ff9870d4f86e54d2a0"
+      },
+      "capture_language": "english",
+      "provenance": "Authentic CK3 screenshot supplied by the author after their manual test; not AI-generated.",
+      "processing": {
+        "operation": "Full-frame PNG-to-JPEG encoding",
+        "resize": false,
+        "crop": false,
+        "retouch": false,
+        "overlays_added": false,
+        "generated_content_added": false,
+        "jpeg_quality": 95,
+        "jpeg_chroma_subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "order": 2,
+      "caption": "Three council automation options enabled in the settings menu.",
+      "path": "02-council-settings.jpg",
+      "bytes": 896281,
+      "sha256": "7664770bb58aa5cef4101d10eefcc098a6d7177ac7c8c4485d1d16418c6743ed",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "original_png": {
+        "supplied_filename": "codex-clipboard-db9cc8ef-96c3-42a7-9b65-4352dd2de8c4.png",
+        "bytes": 3600285,
+        "sha256": "574498599eaa64fdff70513d86eddf74ad425de655cda9ad3fae842b98580f74"
+      },
+      "capture_language": "english",
+      "provenance": "Authentic CK3 screenshot supplied by the author after their manual test; not AI-generated.",
+      "processing": {
+        "operation": "Full-frame PNG-to-JPEG encoding",
+        "resize": false,
+        "crop": false,
+        "retouch": false,
+        "overlays_added": false,
+        "generated_content_added": false,
+        "jpeg_quality": 95,
+        "jpeg_chroma_subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    }
+  ],
+  "upload_budget": {
+    "steam_native_per_asset_exclusive_bytes": 1000000,
+    "browser_per_asset_exclusive_bytes": 2000000,
+    "browser_batch_exclusive_bytes": 8000000,
+    "actual_batch_bytes": 1866008,
+    "all_assets_pass": true
+  }
+}

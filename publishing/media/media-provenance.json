@@ -1,0 +1,54 @@
+{
+  "mod": "council_assignment_automation",
+  "version": "0.1.0",
+  "generator": "built-in imagegen",
+  "ai_generated": true,
+  "reference": "Owner-supplied council icon; rights not expanded by generation",
+  "visual_review": {
+    "status": "PASS",
+    "scope": "Both generated compositions inspected; title, emblem and silhouettes present. This is promotional art, not gameplay evidence."
+  },
+  "transforms": "System.Drawing proportional delivery-size resampling; JPEG quality92 encoding of landscape; no crop, no changed gameplay content",
+  "files": [
+    {
+      "path": "council-icon-reference.png",
+      "bytes": 855,
+      "sha256": "c2780b2fbb6d318bc16788010045d31543ab8092c611a723986eed0d681aa358"
+    },
+    {
+      "path": "cover-landscape-master.png",
+      "bytes": 2416342,
+      "sha256": "cc5b3da480344261ec2c6b7b874b80e7a85bdd3ddfff09f87b9a6e80d603bb7b"
+    },
+    {
+      "path": "cover-paradox-1920x1080.jpg",
+      "bytes": 479411,
+      "sha256": "19eab64e8ba5a6de66176d61ab825662e770e0af654f4326d2b0c111ff82191f"
+    },
+    {
+      "path": "cover-paradox-1920x1080.png",
+      "bytes": 4127246,
+      "sha256": "2decb32c42f120a939db335534c5f528cf20013bae9aebafbb9c090ae4a2c23d"
+    },
+    {
+      "path": "cover-square-1024.png",
+      "bytes": 2119657,
+      "sha256": "cd904ea500ed39e87dc5d10267b953eb3fccb10dd3192caed734cefc8e10b6df"
+    },
+    {
+      "path": "cover-square-master.png",
+      "bytes": 2501324,
+      "sha256": "074790f799bd2840455111b56b9d6648f6dbbabbb5230ab15b8e2651a9612dcd"
+    },
+    {
+      "path": "prompts.txt",
+      "bytes": 2103,
+      "sha256": "28c2e8d1a48f4eac53108d8f81faae43bff5de952d06e585831d7968cc7a10b7"
+    },
+    {
+      "path": "thumbnail.png",
+      "bytes": 537718,
+      "sha256": "41299a963e2aab941efc6ac52723952b01bbd3d9513b06cddafc421f9be1d300"
+    }
+  ]
+}

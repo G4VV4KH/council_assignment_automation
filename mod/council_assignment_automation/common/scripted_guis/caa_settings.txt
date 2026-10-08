@@ -1,0 +1,30 @@
+﻿# The saved options are ruler-scoped. Opening the window changes no option.
+caa_open_settings = {
+	scope = character
+	is_valid = { caa_supported_ruler_trigger = yes }
+	effect = { set_variable = { name = caa_settings_window value = yes } }
+}
+
+caa_close_settings = {
+	scope = character
+	is_valid = { is_ai = no }
+	effect = { remove_variable = caa_settings_window }
+}
+
+caa_toggle_enabled = {
+	scope = character
+	is_valid = { caa_supported_ruler_trigger = yes }
+	effect = { caa_toggle_enabled_effect = yes }
+}
+
+caa_toggle_powerful = {
+	scope = character
+	is_valid = { caa_supported_ruler_trigger = yes }
+	effect = { caa_toggle_powerful_effect = yes }
+}
+
+caa_toggle_observer = {
+	scope = character
+	is_valid = { caa_supported_ruler_trigger = yes }
+	effect = { caa_toggle_observer_effect = yes }
+}

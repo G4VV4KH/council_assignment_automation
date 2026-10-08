@@ -1,0 +1,13 @@
+﻿l_english:
+ caa_title:0 "Council Assignment Automation"
+ caa_open_settings:0 "Council automation"
+ caa_open_settings_tt:0 "Configure automatic council appointments and replacements."
+ caa_intro:0 "Checks run when automation is enabled or its preferences change, then every 30 days. All options start disabled and are saved for this ruler."
+ caa_enabled_label:0 "Enable automatic appointments"
+ caa_enabled_tt:0 "Fill vacant eligible council positions. Turning this off stops all automatic appointments, replacements and swaps while retaining the other preferences."
+ caa_powerful_label:0 "Prioritize powerful vassals"
+ caa_powerful_tt:0 "Give eligible powerful vassals priority, then choose their positions by the relevant skills. Otherwise, choose candidates by skills alone. While automation is enabled, serving powerful vassals can swap positions as skills change, even with the replacement observer off."
+ caa_observer_label:0 "Enable the replacement observer"
+ caa_observer_tt:0 "While automation is enabled, check for stronger candidates and changes in powerful-vassal status. Replace sitting councillors when the selected priority finds a better council. When this is off, fill vacancies and retain the powerful-vassal swaps described above."
+ caa_limits_help:0 "Only eligible appointments in the ordinary council are managed. Spouse positions, protected councillors and special councils are excluded. The ruler must be allowed to appoint a court chaplain for that position to be managed. Closing this menu does not stop automation."
+ caa_close:0 "Close"

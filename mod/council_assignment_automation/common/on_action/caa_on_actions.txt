@@ -1,0 +1,8 @@
+﻿on_player_character_change = { on_actions = { caa_on_player_character_change } }
+caa_on_player_character_change = { effect = { caa_inherit_settings_effect = yes } }
+
+# Recovery for a loaded campaign whose enabled character has no queued pulse.
+on_game_start_after_lobby = { on_actions = { caa_on_start } }
+caa_on_start = {
+    effect = { every_player = { caa_schedule_effect = yes } }
+}

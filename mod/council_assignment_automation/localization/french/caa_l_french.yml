@@ -1,0 +1,13 @@
+﻿l_french:
+ caa_title:0 "Nominations automatiques au conseil"
+ caa_open_settings:0 "Automatisation du conseil"
+ caa_open_settings_tt:0 "Configurer les nominations et les remplacements automatiques au conseil."
+ caa_intro:0 "Une vérification a lieu à l’activation ou lors d’un changement de préférences, puis tous les 30 jours. Toutes les options sont désactivées au départ et sauvegardées pour ce dirigeant."
+ caa_enabled_label:0 "Activer les nominations automatiques"
+ caa_enabled_tt:0 "Pourvoir les postes vacants avec des candidats admissibles. Désactiver cette option arrête toute nomination, tout remplacement et tout échange automatiques, sans effacer les autres préférences."
+ caa_powerful_label:0 "Donner la priorité aux puissants vassaux"
+ caa_powerful_tt:0 "Privilégier les puissants vassaux admissibles, puis répartir leurs postes selon leurs compétences. Sinon, choisir uniquement selon les compétences. Quand l’automatisation est active, les puissants vassaux déjà au conseil peuvent échanger leurs postes si leurs compétences changent, même sans surveillance des remplacements."
+ caa_observer_label:0 "Surveiller les remplacements possibles"
+ caa_observer_tt:0 "Quand l’automatisation est active, surveiller les meilleurs candidats et les changements de statut des puissants vassaux. Remplacer les conseillers en poste si la priorité choisie permet d’améliorer le conseil. Si cette option est désactivée, seuls les postes vacants et les échanges entre puissants vassaux décrits ci-dessus sont gérés."
+ caa_limits_help:0 "Seules les nominations autorisées au conseil ordinaire sont gérées. Les postes du conjoint, les conseillers protégés et les conseils spéciaux sont exclus. Le chapelain ne peut être nommé que si le dirigeant en a le droit. Fermer ce menu n’arrête pas l’automatisation."
+ caa_close:0 "Fermer"

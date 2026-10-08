@@ -1,0 +1,13 @@
+Built-in imagegen; reference: the council icon supplied by the owner.
+Square cover:
+Use case: ads-marketing. Asset: square 1024x1024 cover for a Crusader Kings III mod.
+Primary request: abstract silhouettes of medieval rulers float in orbit around the council icon supplied in the reference image, connected to the icon by many chaotic intersecting thin lines.
+Reference image 1 is the central council symbol: preserve its recognizable upright pale teal heraldic shape, dark inset and cutout, enlarged crisply at the center. The original reference is tiny; render the emblem as a polished coherent larger symbol without inventing a different symbol.
+Composition: centered council emblem, several abstract crowned or robed silhouettes scattered around it, some tilted as if floating, dynamic web of fine connecting lines, readable even at thumbnail size. Dark medieval atmosphere, elegant restrained texture, luminous pale teal emblem and subtle warm metallic lines. Give the central emblem a clear silhouette and keep rulers abstract, no detailed faces.
+Text verbatim: "council assignment automation". Place the full title in an elegant readable serif layout near the bottom on three lines, with generous margins.
+Professional mod cover, no screenshot or fake game UI, no unrelated logos, no watermark.
+
+Landscape adaptation:
+Use case: ads-marketing. Edit target: the supplied square cover. Create its matching 1920x1080 landscape 16:9 cover variant for Paradox Mods.
+Keep the same central council emblem, the same abstract silhouettes of medieval rulers floating around it and the chaotic fine gold connecting lines. Preserve the dark teal and gold atmosphere, illustrative style, emblem identity, and all three words exactly. Recompose into a horizontal layout with the council emblem and orbiting rulers across the left and center, and the title stacked legibly in the right third.
+Text verbatim in lowercase: "council assignment automation". Keep all subjects and full title within generous safe margins. No new symbols, no fake game UI, no watermark. Output a finished single 16:9 landscape cover.

@@ -1,0 +1,115 @@
+﻿# All settings are per-player-character variables; no AI council is automated.
+caa_supported_ruler_trigger = {
+    is_alive = yes
+    is_ai = no
+    is_landed = yes
+    has_council = yes
+    NOT = { government_has_flag = government_is_nomadic }
+    NOT = { government_has_flag = government_is_landless_adventurer }
+    tgp_has_access_to_ministry_trigger = no
+}
+
+# Current actor is saved by caa_run_assignment_effect.
+caa_candidate_pool_trigger = {
+    is_alive = yes
+    NOT = { this = scope:caa_owner }
+    OR = {
+        is_courtier_of = scope:caa_owner
+        is_vassal_of = scope:caa_owner
+    }
+    trigger_if = {
+        limit = { is_councillor_of = scope:caa_owner }
+        OR = {
+            AND = {
+                has_council_position = councillor_chancellor
+                scope:caa_owner = { has_variable = caa_open_0 }
+            }
+            AND = {
+                has_council_position = councillor_steward
+                scope:caa_owner = { has_variable = caa_open_1 }
+            }
+            AND = {
+                has_council_position = councillor_marshal
+                scope:caa_owner = { has_variable = caa_open_2 }
+            }
+            AND = {
+                has_council_position = councillor_spymaster
+                scope:caa_owner = { has_variable = caa_open_3 }
+            }
+            AND = {
+                has_council_position = councillor_court_chaplain
+                scope:caa_owner = { has_variable = caa_open_4 }
+            }
+        }
+    }
+}
+
+caa_candidate_for_chancellor_trigger = {
+    scope:caa_owner = { has_variable = caa_open_0 }
+    OR = {
+        valid_for_council_position = councillor_chancellor
+        # Off preserves an existing incumbent even if new-appointment eligibility
+        # changed since appointment. Cross-role moves still require native validity.
+        AND = {
+            scope:caa_owner = { NOT = { has_variable = caa_observer } has_variable = caa_old_0 }
+            is_alive = yes
+            scope:caa_owner.var:caa_old_0 ?= this
+        }
+    }
+}
+
+caa_candidate_for_steward_trigger = {
+    scope:caa_owner = { has_variable = caa_open_1 }
+    OR = {
+        valid_for_council_position = councillor_steward
+        # Off preserves an existing incumbent even if new-appointment eligibility
+        # changed since appointment. Cross-role moves still require native validity.
+        AND = {
+            scope:caa_owner = { NOT = { has_variable = caa_observer } has_variable = caa_old_1 }
+            is_alive = yes
+            scope:caa_owner.var:caa_old_1 ?= this
+        }
+    }
+}
+
+caa_candidate_for_marshal_trigger = {
+    scope:caa_owner = { has_variable = caa_open_2 }
+    OR = {
+        valid_for_council_position = councillor_marshal
+        # Off preserves an existing incumbent even if new-appointment eligibility
+        # changed since appointment. Cross-role moves still require native validity.
+        AND = {
+            scope:caa_owner = { NOT = { has_variable = caa_observer } has_variable = caa_old_2 }
+            is_alive = yes
+            scope:caa_owner.var:caa_old_2 ?= this
+        }
+    }
+}
+
+caa_candidate_for_spymaster_trigger = {
+    scope:caa_owner = { has_variable = caa_open_3 }
+    OR = {
+        valid_for_council_position = councillor_spymaster
+        # Off preserves an existing incumbent even if new-appointment eligibility
+        # changed since appointment. Cross-role moves still require native validity.
+        AND = {
+            scope:caa_owner = { NOT = { has_variable = caa_observer } has_variable = caa_old_3 }
+            is_alive = yes
+            scope:caa_owner.var:caa_old_3 ?= this
+        }
+    }
+}
+
+caa_candidate_for_court_chaplain_trigger = {
+    scope:caa_owner = { has_variable = caa_open_4 }
+    OR = {
+        valid_for_council_position = councillor_court_chaplain
+        # Off preserves an existing incumbent even if new-appointment eligibility
+        # changed since appointment. Cross-role moves still require native validity.
+        AND = {
+            scope:caa_owner = { NOT = { has_variable = caa_observer } has_variable = caa_old_4 }
+            is_alive = yes
+            scope:caa_owner.var:caa_old_4 ?= this
+        }
+    }
+}

@@ -1,0 +1,135 @@
+# Instantiated independently of the council panel. Scheduled gameplay uses saved
+# ruler options, so closing either window cannot suspend the observer.
+window = {
+	name = "caa_settings_window"
+	parentanchor = center
+	size = { 760 710 }
+	layer = events
+	movable = yes
+	allow_outside = yes
+	visible = "[And( GetPlayer.IsValid, GetPlayer.MakeScope.GetVariable('caa_settings_window').IsSet )]"
+	using = Window_Background
+	using = Window_Decoration_Spike
+
+	state = {
+		name = _show
+		using = Animation_FadeIn_Quick
+	}
+	state = {
+		name = _hide
+		using = Animation_FadeOut_Quick
+	}
+
+	vbox = {
+		using = Window_Margins
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding
+		spacing = 12
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+			blockoverride "header_text" { text = "caa_title" }
+			blockoverride "button_close" {
+				onclick = "[GetScriptedGui('caa_close_settings').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+			}
+		}
+
+		text_multi = {
+			layoutpolicy_horizontal = expanding
+			size = { 680 60 }
+			fontsize = 16
+			text = "caa_intro"
+		}
+
+		scrollbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			blockoverride "scrollbox_margins" {
+				margin_left = 8
+				margin_right = 28
+				margin_top = 5
+				margin_bottom = 5
+			}
+			blockoverride "scrollbox_content" {
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 12
+
+					button_checkbox_label = {
+						name = "caa_enabled_checkbox"
+						layoutpolicy_horizontal = expanding
+						enabled = "[GetScriptedGui('caa_toggle_enabled').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						onclick = "[GetScriptedGui('caa_toggle_enabled').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						tooltip = "caa_enabled_tt"
+						blockoverride "checkbox" { checked = "[GetPlayer.MakeScope.GetVariable('caa_enabled').IsSet]" }
+						blockoverride "text" {
+							text = "caa_enabled_label"
+							max_width = 600
+						}
+					}
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						size = { 640 72 }
+						fontsize = 16
+						text = "caa_enabled_tt"
+					}
+
+					button_checkbox_label = {
+						name = "caa_powerful_checkbox"
+						layoutpolicy_horizontal = expanding
+						enabled = "[GetScriptedGui('caa_toggle_powerful').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						onclick = "[GetScriptedGui('caa_toggle_powerful').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						tooltip = "caa_powerful_tt"
+						blockoverride "checkbox" { checked = "[GetPlayer.MakeScope.GetVariable('caa_prioritize_powerful').IsSet]" }
+						blockoverride "text" {
+							text = "caa_powerful_label"
+							max_width = 600
+						}
+					}
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						size = { 640 168 }
+						fontsize = 16
+						text = "caa_powerful_tt"
+					}
+
+					button_checkbox_label = {
+						name = "caa_observer_checkbox"
+						layoutpolicy_horizontal = expanding
+						enabled = "[GetScriptedGui('caa_toggle_observer').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						onclick = "[GetScriptedGui('caa_toggle_observer').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						tooltip = "caa_observer_tt"
+						blockoverride "checkbox" { checked = "[GetPlayer.MakeScope.GetVariable('caa_observer').IsSet]" }
+						blockoverride "text" {
+							text = "caa_observer_label"
+							max_width = 600
+						}
+					}
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						size = { 640 168 }
+						fontsize = 16
+						text = "caa_observer_tt"
+					}
+					text_multi = {
+						layoutpolicy_horizontal = expanding
+						size = { 640 112 }
+						fontsize = 15
+						text = "caa_limits_help"
+					}
+				}
+			}
+		}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			expand = {}
+			button_standard = {
+				size = { 220 42 }
+				text = "caa_close"
+				onclick = "[GetScriptedGui('caa_close_settings').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+			}
+			expand = {}
+		}
+	}
+}

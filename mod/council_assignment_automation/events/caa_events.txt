@@ -1,0 +1,13 @@
+﻿namespace = caa
+
+# Scheduled events and character variables are serialized by CK3 saves.
+# Do not gate the event trigger: even an Off event must clear its pending marker.
+caa.0001 = {
+    type = character_event
+    hidden = yes
+    immediate = {
+        remove_variable = caa_tick_pending
+        caa_run_assignment_effect = yes
+        caa_schedule_effect = yes
+    }
+}
