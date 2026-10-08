@@ -1,4 +1,4 @@
-# council assignment automation — developer notes
+# Council Assignment Automation — developer notes
 
 The editable publication description is `publishing/description.en.md`. README
 and platform descriptions are generated from it. The authoring tree is resolved

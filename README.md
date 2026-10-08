@@ -1,4 +1,4 @@
-# council assignment automation
+# Council Assignment Automation
 
 ## At a glance
 
