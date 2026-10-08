@@ -51,9 +51,9 @@ Include your CK3 version, government and faith, mod list, the three selected set
 ## Find this mod elsewhere
 
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3815689627)
+- [Paradox Mods](https://mods.paradoxplaza.com/mods/162417/Any)
+- [Nexus Mods](https://www.nexusmods.com/crusaderkings3/mods/413)
 - [GitHub](https://github.com/G4VV4KH/council_assignment_automation)
-
-Paradox Mods and Nexus Mods publication pages are pending.
 
 ## My other mods
 
