@@ -9,6 +9,10 @@
 - 🔴 Replaces the council window; other mods replacing that window need a compatibility patch.
 - 🔴 Uses available candidates and changeable positions. Special councils and protected appointments are excluded.
 
+## Available compatibility patches
+
+- [[compatch] CAA + CA](https://steamcommunity.com/sharedfiles/filedetails/?id=3816373375) — use Council Assignment Automation and Council Autopilot together.
+
 ## Put the right people around the table
 
 A new councillor arrives, a powerful vassal rises, or an old adviser develops new talents. Let your council adapt without comparing every candidate by hand.
@@ -57,6 +61,8 @@ Include your CK3 version, government and faith, mod list, the three selected set
 
 ## My other mods
 
+### Standalone mods
+
 - [Parley: The Negotiating Table](https://steamcommunity.com/sharedfiles/filedetails/?id=3811090081) — negotiate diplomatic agreements.
 - [Marriage Calculation Assistant](https://steamcommunity.com/sharedfiles/filedetails/?id=3811100163) — compare and sort marriage candidates.
 - [Your Own Hegemony](https://steamcommunity.com/sharedfiles/filedetails/?id=3811201582) — found a custom hegemony.
@@ -65,7 +71,9 @@ Include your CK3 version, government and faith, mod list, the three selected set
 - [Nomad Autorefill](https://steamcommunity.com/sharedfiles/filedetails/?id=3814793283) — automatically reinforce nomadic Men-at-Arms using herd or gold.
 - [Tax Collection Automation](https://steamcommunity.com/sharedfiles/filedetails/?id=3815381275) — automatically assign tax collectors and optimize tax jurisdictions.
 
-These mods are optional.
+### Compatibility patches
+
+- [[compatch] CAA + CA](https://steamcommunity.com/sharedfiles/filedetails/?id=3816373375) — use Council Assignment Automation and Council Autopilot together.
 
 ## Credits
 
